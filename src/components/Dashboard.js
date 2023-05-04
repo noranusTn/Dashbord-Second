@@ -10,7 +10,8 @@ render(){
      
        <Navbar />
         <Sidebar />
-       
+        {this.props.children}
+
          </div>
     )
 
